@@ -1,0 +1,76 @@
+<root>
+	<Table>
+		<mission_override>
+			<mission_name>unnamed</mission_name>
+			<time>22.0</time>
+			<ambient_audio_rtpc>4.000000</ambient_audio_rtpc>
+			<ambient_color>0.318547 0.679542 1.000000 0.100000</ambient_color>
+			<back_ambient_color>0.212231 0.610496 1.000000 0.200000</back_ambient_color>
+			<cloud_backlight_power>0.050000</cloud_backlight_power>
+			<cloud_backlight_strength>5.000000</cloud_backlight_strength>
+			<cloud_layer01_speed>0.000000</cloud_layer01_speed>
+			<cloud_layer23_speed>0.000000</cloud_layer23_speed>
+			<clouds_front_light_color>0.520996 0.806952 1.000000 2.500000</clouds_front_light_color>
+			<clouds_horizon_front_light_color>0.520996 0.806952 1.000000 1.000000</clouds_horizon_front_light_color>
+			<clouds_horizon_rear_light_color>0.052861 0.107023 0.147027 1.000000</clouds_horizon_rear_light_color>
+			<clouds_rear_light_color>0.052861 0.107023 0.147027 1.000000</clouds_rear_light_color>
+			<desired_brightness>3.000000</desired_brightness>
+			<east0>0.007499 0.022174 0.033105 0.800000</east0>
+			<east1>0.072272 0.109462 0.132868 0.250000</east1>
+			<east2>0.014444 0.051269 0.084376 0.200000</east2>
+			<east3>0.009134 0.046665 0.084376 0.200000</east3>
+			<exposure_max>1.200000</exposure_max>
+			<exposure_min>0.500000</exposure_min>
+			<fog_atmosphere_scale>0.002500</fog_atmosphere_scale>
+			<fog_color>0.008023 0.022174 0.033105 0.700000</fog_color>
+			<fog_density_new>0.000750</fog_density_new>
+			<fog_density_offset>0.150000</fog_density_offset>
+			<fog_ground>0.000000</fog_ground>
+			<ground_reflection_brightness>3.000000</ground_reflection_brightness>
+			<ground_reflection_gloss>0.100000</ground_reflection_gloss>
+			<ground_reflection_spec_refl_brightness>2.000000</ground_reflection_spec_refl_brightness>
+			<horizon_layer0_strength>0.060000</horizon_layer0_strength>
+			<horizon_layer1_strength>1.000000</horizon_layer1_strength>
+			<horizon_layer2_strength>2.000000</horizon_layer2_strength>
+			<horizon_layer3_strength>1.000000</horizon_layer3_strength>
+			<horizon_mountain_color_back>1.000000 1.000000 1.000000 1.000000</horizon_mountain_color_back>
+			<horizon_mountain_color>1.000000 1.000000 1.000000 1.000000</horizon_mountain_color>
+			<horizon_mountain_fog_color>0.008023 0.022174 0.033105 0.700000</horizon_mountain_fog_color>
+			<horizon_mountain_fog_density>1.000000</horizon_mountain_fog_density>
+			<horizon_storm_strength>0.000000</horizon_storm_strength>
+			<ldr_max>3.000000</ldr_max>
+			<ldr_min>0.000000</ldr_min>
+			<lut_filename>lut_night</lut_filename>
+			<meteor_strength>0.500000</meteor_strength>
+			<overhead_layer0_strength>0.000000</overhead_layer0_strength>
+			<overhead_layer1_strength>1.500000</overhead_layer1_strength>
+			<overhead_layer2_strength>2.000000</overhead_layer2_strength>
+			<overhead_layer3_strength>0.000000</overhead_layer3_strength>
+			<particle_ambient_color>0.346704 0.318547 0.234551 1.000000</particle_ambient_color>
+			<particle_tod_light_color>0.332452 0.381326 0.332452 1.000000</particle_tod_light_color>
+			<star_strength>0.600000</star_strength>
+			<tod_light_color>0.318547 0.679542 1.000000 0.250000</tod_light_color>
+			<water_ambient_color>0.000000 0.000000 0.000000 1.000000</water_ambient_color>
+			<water_crest_color>0.001148 0.001328 0.001148 1.000000</water_crest_color>
+			<water_crest_threshold>1.000000</water_crest_threshold>
+			<water_diffuse_color1>0.010330 0.012286 0.009721 1.000000</water_diffuse_color1>
+			<water_diffuse_color2>0.002740 0.006512 0.010330 1.000000</water_diffuse_color2>
+			<water_falloff_color>0.000000 0.000000 0.000000 1.000000</water_falloff_color>
+			<water_fog_color>0.000000 0.000000 0.000000 1.000000</water_fog_color>
+			<water_specular_alpha>0.100000</water_specular_alpha>
+			<water_specular_color>0.366253 0.552011 0.658375 1.000000</water_specular_color>
+			<water_specular_power>15.000000</water_specular_power>
+			<west0>0.007499 0.022174 0.033105 0.800000</west0>
+			<west1>0.072272 0.109462 0.132868 0.250000</west1>
+			<west2>0.014444 0.051269 0.084376 0.200000</west2>
+			<west3>0.009134 0.046665 0.084376 0.200000</west3>
+			<window_color>1.000000 0.791298 0.502886 2.250000</window_color>
+			<zenith>0.009134 0.046665 0.084376 0.200000</zenith>
+
+			<bloom_theta>0.0</bloom_theta>
+			<film_grain_amount>0.000000</film_grain_amount>
+			<film_grain_saturation>0.000000</film_grain_saturation>
+			<vignette_amount>0.000000</vignette_amount>
+		</mission_override>
+	</Table>
+</root>
