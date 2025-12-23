@@ -13,6 +13,17 @@
           "cwd": "${workspaceFolder}"
         }
       }
+    },
+    {
+      "type": "shell",
+      "label": "district_unpack",
+      "windows": {
+        "command": "python",
+        "args": ["${workspaceFolder}\\district_unpack\\main.py"],
+        "options": {
+          "cwd": "${workspaceFolder}\\district_unpack"
+        }
+      }
     }
   ]
 }
