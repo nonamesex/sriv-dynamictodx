@@ -64,7 +64,8 @@
 			<west3>0.045186 0.332452 0.603827 1.800000</west3>
 			<zenith>0.045186 0.332452 0.603827 1.600000</zenith>
 
-			<bloom_theta>0.0</bloom_theta>
+			<bloom_slope_B>0.30</bloom_slope_B>
+			<bloom_theta>0.15</bloom_theta>
 			<film_grain_amount>0.000000</film_grain_amount>
 			<film_grain_saturation>0.000000</film_grain_saturation>
 			<vignette_amount>0.000000</vignette_amount>

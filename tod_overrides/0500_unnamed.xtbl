@@ -67,7 +67,8 @@
 			<window_color>1.000000 0.791298 0.502886 2.250000</window_color>
 			<zenith>0.009134 0.046665 0.084376 0.200000</zenith>
 
-			<bloom_theta>0.0</bloom_theta>
+			<bloom_slope_B>0.30</bloom_slope_B>
+			<bloom_theta>0.15</bloom_theta>
 			<film_grain_amount>0.000000</film_grain_amount>
 			<film_grain_saturation>0.000000</film_grain_saturation>
 			<vignette_amount>0.000000</vignette_amount>
