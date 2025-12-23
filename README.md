@@ -1,4 +1,5 @@
 # sriv-dynamictodx
+### Requires Python 3.8+
 
 This repository contains a script that creates a `default_district.xtbl` file from several tod_override files.
 
@@ -15,9 +16,9 @@ The `time` value must be float. Example:
 - 7.0 = 7:00AM
 - 16.5 = 4:30PM
 
-After the script is running, the `default_district.xtbl` file located in the `output` directory will be generated. This file will combine all your tod_override files.
+Run the `main.py`. After the script is running, the `default_district.xtbl` file located in the `output` directory will be generated. This file will combine all your tod_override files.
 
-You might also want to edit the `default_global.xtbl` file to display the sun and moon correctly.
+You might also want to edit the `default_global.xtbl` file to correctly display the sun and moon and determine when street lighting will be turned on or off (`day_begin`, `day_end`, `tod_segments`).
 
 # Installation
 Place generated default_district.xtbl file in the game directory.
