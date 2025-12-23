@@ -105,15 +105,10 @@ TOD_PARAMS = [
 	"time"
 ]
 
-def from_military_time(military_str: str) -> list[int]:
-	hour = int(military_str) / 100
-	minute = (hour - floor(hour)) * 60
-	return [round(hour), round(minute)]
-
 KEYS_PER_HOUR = 2
 KEYS_NUM = 24 * KEYS_PER_HOUR
 def get_key_from_time(time: float) -> int:
-	key = round(time * KEYS_PER_HOUR)
+	key = int(time * KEYS_PER_HOUR)
 
 	if key >= KEYS_NUM:
 		key = key % KEYS_NUM
@@ -131,18 +126,23 @@ def read_tod(tod_path: str, is_tod_override = False) -> dict[str, str]:
 	with parse(tod_path) as tod_xml:
 		if is_tod_override:
 			elements = tod_xml.getElementsByTagName("mission_override")
-			if len(elements) == 0:
-				return {}
+			if elements.length == 0:
+				return tod_params
+
 			tod_xml = elements[0]
 
 		for param_name in TOD_PARAMS:
 			elements = tod_xml.getElementsByTagName(param_name)
-			if elements.length > 0:
-				element = elements[0]
-				if element.childNodes.length > 0:
-					value = element.childNodes[0].wholeText # type: ignore
-					if value and value != "":
-						tod_params[param_name] = value
+			if elements.length == 0:
+				continue
+
+			element = elements[0]
+			if element.childNodes.length == 0:
+				continue
+
+			value = element.childNodes[0].wholeText # type: ignore
+			if value and value != "":
+				tod_params[param_name] = value
 
 	return tod_params
 
